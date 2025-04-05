@@ -23,7 +23,7 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import notificationSound from "../assets/alert.wav"; // Ensure the file exists
 
-const API_URL = "https://backend-cndw.onrender.com/api/threats/";
+const API_URL = "https://backend-sc9k.onrender.com/api/threats/";
 
 // Function to categorize threats with color-coded chips & icons
 const categorizeThreat = (severity) => {

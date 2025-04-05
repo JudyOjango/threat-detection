@@ -24,7 +24,7 @@ const ForgotPassword = () => {
 
     try {
       const response = await fetch(
-        "https://backend-cndw.onrender.com/api/auth/forgot-password/",
+        "https://backend-sc9k.onrender.com/api/auth/forgot-password/",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

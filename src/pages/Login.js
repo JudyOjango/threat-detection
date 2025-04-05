@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { TextField, Button, Container, Typography, Paper, CircularProgress, Alert } from "@mui/material";
 import axios from "axios";
 
-const API_URL = "https://backend-cndw.onrender.com/api/auth/login/";
+const API_URL = "https://backend-sc9k.onrender.com/api/auth/login/";
 
 const Login = () => {
   const [username, setUsername] = useState("");
