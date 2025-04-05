@@ -49,7 +49,7 @@ const Dashboard = () => {
     }
 
     try {
-      const response = await axios.get("https://backend-cndw.onrender.com/api/threats/", {
+      const response = await axios.get("https://backend-sc9k.onrender.com/api/threats/", {
         headers: { Authorization: `Bearer ${token}` },
       });
 
